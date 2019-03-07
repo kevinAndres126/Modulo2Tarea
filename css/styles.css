@@ -1,0 +1,15 @@
+.box {
+    border: solid 1px black;
+    background: gray;
+    width: 30%;
+    float: right;
+    margin-right: 3%;
+    height: 250px;
+}
+
+h3 {
+    border: solid 1px black;
+    position: relative;
+    
+
+}
