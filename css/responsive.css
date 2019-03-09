@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.contenedor {
+    position: relative;
+    margin: auto;
+    height: auto;
+    width: 100%;
+
+}
+
+.fila{
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+[class*= "col-"]{
+    float: left;
+    border: solid 1px black;
+}
+
+
+.col-1{
+    width: 8.333333333%;
+    background: brown;
+}
+.col-2{
+    width: 16.66666666%;
+    background: gold;
+}
+
+.col-3{
+    width: 25%;
+    background:gray;
+}
+
+.col-4{
+    width: 33.33333333%;
+    background:blue;
+}
+.col-5{
+    width: 41.66666666%;
+    background:blueviolet;
+}
+
+.col-6{
+    width: 50%;
+    background:green;
+}
+
+.col-7{
+    width: 58.33333333%;
+    background:green;
+}
+
+.col-8{
+    width: 66.66666666%;
+    background:chocolate;
+}
+.col-9{
+    width: 75%;
+    background:peru; 
+}
+.col-10{
+    width:83.33333333%;
+    background:forestgreen; 
+}
+.col-11{
+    width: 91.6666666667%;
+    background:royalblue; 
+}
+
+.col-12{
+    width: 100%;
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
